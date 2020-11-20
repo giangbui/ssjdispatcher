@@ -1,6 +1,5 @@
 # SSJDISPATCHER
 
-
 The SQS S3 Job Dispatcher is designed for centralizing all gen3 jobs in 
 the [Gen3 stack](https://gen3.org/). It monitors a SQS queue receiveing CRUD messages
 from S3 buckets and determine an action basing on the object url pattern.
